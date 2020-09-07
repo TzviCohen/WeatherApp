@@ -1,3 +1,4 @@
+#WeatherApp
 Basic weather application for Android OS.
 
 Last week I came up with an interesting idea to encourage my childhood town with an attractive, informative tourism application.
