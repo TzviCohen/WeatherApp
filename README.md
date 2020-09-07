@@ -12,9 +12,11 @@ It would maybe worthy to take it a bit further in the future and add one or more
 - Users can toggle the temperature unit (Celsius or Fahrenheit).
 
 Design:
+
 Keeping things simple was the aim here. I decided to show only the temperature and weather description.
 
-Logic
+Logic:
+
 After looking at an example API response from Open Weather, I figured I’ll need to get the location name from the user to be able to serve weather information on page load.
 
 I stored the returned value in already declared variable and used it to make the GET request.
@@ -22,5 +24,6 @@ The Open Weather API gave me a way to update the location, temperature and weath
 
 The last thing I did was to update the weather icon based on the conditions in the user’s city of interest. I have considered doing that by fitting a relevant icon to every condition. Yet, Open Weather has a broad variety of weather conditions, so I decided a better way to achieve that was to use another API service of Open Weather and get the relevant icon to the requested condition.
 
-Key takeaway
+Key takeaway:
+
 My major takeaway from this project is that I learned using Retrofit, and how to access each part of the returned JSON data from the API response and use it in different ways. Although my methodology needs some refining, it’s bound to get better with more practice.
